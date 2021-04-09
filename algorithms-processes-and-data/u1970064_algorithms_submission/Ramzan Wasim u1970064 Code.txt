@@ -1,0 +1,806 @@
+Unit 3 & 4:
+
+    public int findElement() throws IndexingError {
+        int[] array = getArray();               
+        int k = getIndex();
+        int[] smallArray = new int[k];          
+
+        if (k <= 0 || k > array.length) {      
+            throw new IndexingError();
+        }
+
+        for(int i = 0; i < k; i++){
+            smallArray[i] = array[i];          
+        }
+        Arrays.sort(smallArray);               
+
+        for(int i = k; i < array.length; i++){
+            if(array[i] > smallArray[0]){       
+                smallArray[0] = array[i];       
+                Arrays.sort(smallArray);        
+            }
+        }
+        return smallArray[0];
+    } 
+_________________________________________________________________________________________
+Unit 5:
+
+
+    public static int cube(int n) {
+        int cube = 0, threeNsquared = 0, threeN = 0;
+        int i = 0;
+        assert cube == i*i*i : cube;
+        assert threeN == 3*i : threeN;
+        assert threeNsquared == 3*i*i;
+        while (i < n) {
+            assert cube == i*i*i : cube;
+            assert threeN == 3*i : threeN;
+            assert threeNsquared == 3*i*i;
+            cube = cube + threeNsquared + threeN + 1;
+            assert cube == (i+1)*(i+1)*(i+1);
+            assert threeN == 3*i;
+            assert threeNsquared == 3*i*i;
+            threeNsquared = threeNsquared + 2*threeN + 3;
+            assert cube == (i+1)*(i+1)*(i+1);
+            assert threeN == 3*i;
+            assert threeNsquared == 3*(i+1)*(i+1);
+            threeN = threeN + 3;
+            assert cube == (i+1)*(i+1)*(i+1);
+            assert threeN == 3*(i+1);
+            assert threeNsquared == 3*(i+1)*(i+1);
+            i++;
+            assert cube == i*i*i;
+            assert threeN == 3*i;
+            assert threeNsquared == 3*i*i;
+        }
+        assert cube == n*n*n : cube;
+        assert threeN == 3*n;
+        assert threeNsquared == 3*n*n;
+        return cube;
+    }
+
+
+_________________________________________________________________________________________
+Unit 6:
+
+Swap method:
+
+     public static <T> void swap (T[] array, int index1, int index2) {
+        T temp = array[index1];
+        array[index1] = array[index2];
+        array[index2] = temp;
+     }
+
+IsOdd:
+
+    @Override
+    public boolean test(Integer n) {
+        return n % 2 != 0;
+    }
+
+IsPrime:
+
+    @Override
+    public boolean test(Integer n) {
+        boolean isPrime = true;
+
+        if (n < 2) {
+            return false;
+        }
+
+        for (int i = 2; i < n; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+IsPalindrome:
+
+    @Override
+    public boolean test(String object) {
+        String newObject = object.replaceAll("[^A-Za-z]+", "").toLowerCase();
+        String reverse = "";
+        for (int i = newObject.length() - 1; i >= 0; i--) {
+            reverse = reverse + newObject.charAt(i);
+        }
+
+        if (newObject.equals(reverse)) {
+            return true;
+        }
+        return false;
+    }
+
+_________________________________________________________________________________________
+Unit 7 (BoyerMoore):
+
+public class BoyerMoore extends StringSearcher {
+
+    private int[] right;
+    private String pat;
+
+    public BoyerMoore(char[] string) {
+        super(string);
+    }
+
+    public BoyerMoore(String pat) {
+        super(pat);
+        this.pat = pat;
+        int M = pat.length();
+        int R = 256;
+        right = new int[R];
+        for (int c = 0; c < R; c++) {
+            right[c] = -1;
+            for (int j = 0; j < M; j++) {
+                right[pat.charAt(j)] = j;
+            }
+        }
+    }
+
+    @Override
+    public int occursIn(char[] superstring) throws NotFound {
+        int N = superstring.length;
+        int M = pat.length();
+        int skip;
+        for (int i = 0; i <= N - M; i += skip) {
+            skip = 0;
+            for (int j = M - 1; j >= 0; j--)
+                if (getString()[j] != superstring[i]) {
+                    skip = j - right[superstring[i]];
+                    if (skip < 1) skip = 1;
+                    break;
+                }
+            if (skip == 0) {
+                return i;
+            }
+        }
+        return N;
+    }
+}
+_________________________________________________________________________________________
+Unit 8:
+
+QuickSort:
+
+public class QuickSort<T extends Comparable<? super T >> implements ArraySort<T> {
+
+    public static void exch(Comparable[] a, int i, int j) {
+        Comparable t = a[i];
+        a[i] = a[j];
+        a[j] = t;
+    }
+
+    @Override
+    public T[] sort(T[] array) {
+        quickSort(array, 0, array.length - 1);
+        return array;
+    }
+
+    private void quickSort(T[] array, int lo, int hi) {
+        if (lo >= hi) {
+            return;
+        }
+
+        int i = lo;
+        int j = hi;
+        T v = array[(i + j) / 2];
+
+        while (i <= j) {
+            while (array[i].compareTo(v) < 0) i++;
+            while (array[j].compareTo(v) < 0) j--;
+
+            if (i <= j) {
+                exch(array, i, j);
+                i++;
+                j--;
+            }
+        }
+        quickSort(array, lo, j);
+        quickSort(array, i, hi);
+    }
+}
+
+SelectionSort:
+public class SelectionSort<T extends Comparable<? super T>> implements ArraySort<T> {
+
+    public static void exch(Comparable[] a, int i, int j) {
+        Comparable t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+
+    @Override
+    public T[] sort(T[] array) {
+        int N = array.length;
+
+        for(int i = 0; i < N; i++){
+            int minIndex = i;
+            for(int j = i+1; j < N; j++) {
+                if (array[j].compareTo(array[minIndex]) < 0)
+                    minIndex = j;
+                exch(array, i, minIndex);
+            }
+        }
+        return array;
+    }
+}
+
+ShellSort:
+
+public class ShellSort<T extends Comparable<? super T >> implements ArraySort<T> {
+
+    public static void exch(Comparable[] a, int i, int j) {
+        Comparable t = a[i];
+        a[i] = a[j];
+        a[j] = t;
+    }
+
+    @Override
+    public T[] sort(T[] array) {
+        shellSort(array);
+        return array;
+    }
+
+    public void shellSort(T[] array) {
+        int N = array.length;
+        int h = 1;
+        while (h < N / 3) {
+            h = 3 * h + 1;
+        }
+
+        while (h >= 1) {
+            for (int i = h; i < array.length; i++) {
+                    for (int j = i; j >= h && (array[j].compareTo(array[j-h]) < 0); j -= h) {
+                    exch(array, j - h, j);
+                }
+            }
+            h = h / 3;
+        }
+    }
+}
+
+_________________________________________________________________________________________
+Unit 9:
+
+Logarithmic:
+
+public class Logarithmic extends Timer {
+
+    @Override
+    public void method(int n) {
+        for(int i = 1; i < n; i = i * 2) {
+            instruction();
+        }
+    }
+
+    @Override
+    public double complexity(int n) {
+        return Math.log(n);
+    }
+
+    public static void main(String[] args) {
+        Tester.testSequence(new Logarithmic(),0,args);
+    }
+}
+
+NlogN:
+
+public class NlogN extends Timer {
+
+    @Override
+    public void method(int n) {
+        for(int i = 0; i < n; i++) {
+            for(int j = 1; j < n; j = j * 2) {
+                instruction();
+            }
+        }
+    }
+
+    @Override
+    public double complexity(int n) {
+        return n * Math.log(n);
+    }
+
+    public static void main(String[] args) {
+        Tester.testSequence(new NlogN(),0,args);
+    }
+}
+
+
+
+Quadratic:
+
+public class Quadratic extends Timer {
+    @Override
+    public void method(int n) {
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n; j++) {
+                instruction();
+            }
+        }
+    }
+
+    @Override
+    public double complexity(int n) {
+        return n*n;
+    }
+
+    public static void main(String[] args) {
+        Tester.testSequence(new Quadratic(),0,args);
+    }
+}
+
+Cubic:
+
+public class Cubic extends Timer {
+
+    @Override
+    public void method(int n) {
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n; j++) {
+                for(int k = 0; k < n; k++) {
+                    instruction();
+                }
+            }
+        }
+    }
+
+    @Override
+    public double complexity(int n) {
+        return Math.pow(n,3);
+    }
+
+    public static void main(String[] args) {
+        Tester.testSequence(new Cubic(),0,args);
+    }
+}
+
+Exponential:
+
+public class Exponential extends Timer {
+
+    @Override
+    public void method(int n) {
+        if (n == 1) {
+            instruction();
+        } else {
+            method(n-1);
+            method(n-1);
+        }
+    }
+
+    @Override
+    public double complexity(int n) {
+        return Math.pow(2,n);
+    }
+
+    public static void main(String[] args) {
+        Tester.testSequence(new Exponential(),0,args);
+    }
+}
+
+_____________________________________________________________________________________
+Unit 11:
+
+getMethod:
+
+public T get(int index) throws ListAccessError {
+        return getNode(index).getValue();
+    }
+
+addMethod:
+
+    @Override
+    public void add(int index, T value) throws ListAccessError {
+        if (index < 0) {
+            throw new ListAccessError("Index less than 0 (Out of Bounds)!");
+        } else if (index > size) {
+            throw new ListAccessError("Index greater than size!");
+        }
+        size++;
+
+        if (index == 0) {
+            setRoot(new SingleLinkNode<T>(value, getRoot()));
+            return;
+        }
+
+        SingleLinkNode<T> previousNode = (SingleLinkNode<T>) getNode(index - 1);
+        SingleLinkNode<T> newNode = new SingleLinkNode<T>(value, previousNode.getNext());
+        previousNode.setNext(newNode);
+    }
+
+removeMethod:
+
+ @Override
+    public T remove(int index) throws ListAccessError {
+        if (isEmpty()) {
+            throw new ListAccessError("List is empty");
+        }
+        if (index < 0) {
+            throw new ListAccessError("Index less than 0 (Out of bounds)!");
+        } else if (index > size) {
+            throw new ListAccessError("Index greater than size (Out of bounds)!");
+        }
+
+        SingleLinkNode<T> head = null;
+        SingleLinkNode<T> tail = getRoot().getNext();
+        T removedNode = get(index);
+
+        if (index == 0) {
+            setRoot(getRoot().getNext());
+            size--;
+            return removedNode;
+        }
+
+        head = getRoot();
+        tail = tail.getNext();
+
+        for (int i = 1; i < index; i++) {
+            head = head.getNext();
+            tail = tail.getNext();
+        }
+
+        head.setNext(tail);
+        size--;
+        return removedNode;
+    }
+_________________________________________________________________________________________
+Unit 12:
+
+    public boolean insert(T value) {
+        if (isEmpty()) {
+            root = new TreeNode(value);
+        } else if (value.compareTo(getValue()) < 0) {
+            getLeft().insert(value);
+        } else {
+            getRight().insert(value);
+        }
+        return false;
+    }
+
+    public TreeNode<T> getRoot() throws NullPointerException {
+        if (isEmpty()) {
+            throw new NullPointerException();
+        }
+        return root;
+    }
+
+    public void setRoot(TreeNode<T> root, boolean safe) throws TreeOrderException {
+        if (safe == true) {
+            throw new TreeOrderException();
+        } else {
+            setRoot(root, false);
+        }
+    }
+
+    public T getValue() throws NullPointerException {
+        if (isEmpty()) {
+            throw new NullPointerException();
+        } else {
+            return root.getValue();
+        }
+    }
+
+    public void setValue(T value, boolean safe) throws NullPointerException {
+        root.setValue(value);
+    }
+
+    public BTree<T> getLeft() throws NullPointerException {
+        if (isEmpty()) {
+            throw new NullPointerException();
+        } else {
+            return root.getLeft();
+        }
+    }
+
+    public void setLeft(BTree<T> tree, boolean safe) throws NullPointerException {
+        root.setLeft(tree);
+    }
+
+    public BTree<T> getRight() throws NullPointerException {
+        return root.getRight();
+    }
+
+    public void setRight(BTree<T> tree, boolean safe) {
+        root.setRight(tree);
+    }
+
+    public boolean contains(T value) throws NullPointerException {
+        if (isEmpty()) {
+            throw new NullPointerException("Tree Empty");
+        } else if (getValue().equals(value)) {
+            return true;
+        } else if (value.compareTo(getValue()) < 0) {
+            return getLeft().contains(value);
+        } else if (value.compareTo(getValue()) > 0) {
+            return getRight().contains(value);
+        }
+        return false;
+    }
+
+    public List<T> inOrderTraversal() throws NullPointerException {
+        ArrayList<T> list = new ArrayList<>();
+        if (!getLeft().isEmpty()) {
+            list.addAll(getLeft().inOrderTraversal());
+        }
+        list.add(getValue());
+
+        if (!getRight().isEmpty()) {
+            list.addAll(getRight().inOrderTraversal());
+        }
+        return list;
+    }
+_________________________________________________________________________________________
+Unit 14:
+
+Depth First:
+
+public class DepthFirstTraversal<T> extends AdjacencyGraph<T> implements Traversal<T> {
+
+    private List<T> traversal = new ArrayList<T>();
+
+    @Override
+    public List<T> traverse() throws GraphError {
+        T node = getUnvisitedNode(); 
+        while (node != null) { 
+            visitNode(node);
+            node = getUnvisitedNode(); 
+        }
+        return traversal;
+    }
+
+    private boolean visited(T node) {
+        return traversal.contains(node); 
+    }
+
+    private T getUnvisitedNode() {
+        for (T node: getNodes()) { 
+            if (!visited(node)) { 
+                return node; 
+            }
+        }
+        return null; 
+    }
+
+    private void visitNode(T node) throws GraphError {
+        if (visited(node)) return; 
+        traversal.add(node); // add the node to the traversal
+        for (T neighbour: getNeighbours(node)) { 
+            if (!visited(neighbour)) 
+                visitNode(neighbour); 
+        }
+    }
+}
+_________________________________________________________________________________________
+Unit 15:
+
+public class ReferenceCountSort<T> extends AdjacencyGraph<T> implements TopologicalSort<T> {
+
+    private HashMap<T, Integer> referenceCount = new HashMap<>();
+    private ArrayList<T> sort = new ArrayList<>();
+
+    @Override
+    public List<T> getSort() throws GraphError {
+        for (T node : getNodes()) {
+            referenceCount.put(node, 0);
+        }
+
+        for (T node : getNodes()) {
+            for (T neighbour : getNeighbours(node)) {
+                increaseReferenceCount(neighbour);
+            }
+        }
+
+        while (referenceCount.keySet().size() != 0) {
+            boolean findPredecessor = false;
+
+            for (T node : (T[]) referenceCount.keySet().toArray()) {
+                if (referenceCount.get(node) == 0) {
+                    sort.add(node);
+
+                    for (T neighbour : getNeighbours(node)) {
+                        referenceCount.replace(neighbour, (referenceCount.get(neighbour) - 1));
+                    }
+                    referenceCount.remove(node);
+                    findPredecessor = true;
+                }
+            }
+
+            if (!findPredecessor) {
+                throw new GraphError("Cannot get topological sort. Graph is not acyclic.");
+            }
+        }
+        return sort;
+    }
+
+    private void increaseReferenceCount(T neighbour) {
+        Integer count = referenceCount.get(neighbour);
+        if (count == null) {
+            count = 1;
+        } else {
+            count++;
+        }
+        referenceCount.put(neighbour, count);
+    }
+}
+
+_________________________________________________________________________________________
+Unit 17:
+
+    public void run() {
+        startCount();
+        while(!isFinished()) {
+            stepCount();
+        }
+    }
+
+    public static void main(String[] args) throws CounterException, InterruptedException {
+        ThreadSet<Counter> counters = new ThreadHashSet<>();  // will contain the counters
+        counters.add(new Counter("up",0,10)); // counter "up" counts from 0 to 10
+        counters.add(new Counter("down",10,0)); // counter "down" counts from 10 to 0
+        Counter.traceOn(); // switch tracing on
+        Counter.setDelay(0.1); // set a delay from 0.0 to 0.1 seconds
+        counters.runSet(); // run the counters (concurrently)
+    }
+
+_________________________________________________________________________________________
+Unit 18:
+
+Peru code:
+
+	public void runTrain() throws RailwaySystemError {
+		Clock clock = getRailwaySystem().getClock();
+		Railway boliviaRailway = getRailwaySystem().getNextRailway(this);
+		while (!clock.timeOut()) {
+			choochoo();
+			this.getBasket().putStone(this);
+			while(getSharedBasket().hasStone(boliviaRailway)) {
+				if (boliviaRailway.getBasket().hasStone(boliviaRailway)) {
+					this.getBasket().takeStone(this);
+					while (getSharedBasket().hasStone(this)) {
+						siesta();
+					}
+					this.getBasket().putStone(this);
+				}
+			}
+			crossPass();
+			getSharedBasket().putStone(this);
+			getBasket().takeStone(this);
+		}
+	}
+
+Bolivia Code:
+
+	public void runTrain() throws RailwaySystemError {
+		Clock clock = getRailwaySystem().getClock();
+		Railway peruRailway = getRailwaySystem().getNextRailway(this);
+		while (!clock.timeOut()) {
+			choochoo();
+			this.getBasket().putStone(this);
+
+			while(!getSharedBasket().hasStone(peruRailway)) {
+				if (peruRailway.getBasket().hasStone(peruRailway)) {
+					this.getBasket().takeStone(this);
+					while (!getSharedBasket().hasStone(this)) {
+						siesta();
+					}
+					this.getBasket().putStone(this);
+				}
+			}
+			crossPass();
+			getSharedBasket().takeStone(this);
+			getBasket().takeStone(this);
+		}
+	}
+
+_________________________________________________________________________________________
+Unit 20:
+
+public class LockResourceManager extends BasicResourceManager {
+
+    final Lock lock = new ReentrantLock();
+    final Condition[] priorityValue = new Condition[11];
+    private boolean inUse = false;
+
+    /**
+     *
+     * @param resource the resource managed by this manager
+     * @param maxUses  the maximum number of uses permitted for this manager's resource.
+     */
+    public LockResourceManager(Resource resource, int maxUses) {
+        super(resource, maxUses);
+        for(int i=0; i<priorityValue.length; i++) {
+            priorityValue[i] = lock.newCondition();
+        }
+    }
+
+    @Override
+    public void requestResource(int priority) throws ResourceError {
+        lock.lock();
+        try {
+            while(inUse) {
+                increaseNumberWaiting(priority);
+                priorityValue[priority].await();
+            }
+            inUse = true;
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    @Override
+    public int releaseResource() throws ResourceError {
+        lock.lock();
+        try {
+            for(int i = 10; i >= 0; i--) {
+                if(getNumberWaiting(i) > 0) {
+                    decreaseNumberWaiting(i);
+                    priorityValue[i].signal();
+                    return i;
+                }
+            }
+            return NONE_WAITING;
+        } finally {
+            inUse = false;
+            lock.unlock();
+        }
+    }
+}
+_________________________________________________________________________________________
+Unit 24:
+
+Matlab Code:
+
+a = 4 + 1i;
+b = -2 + 6i;
+
+i = 3*a %question i
+ii = -4i*b %question ii
+iii = a+b %question iii
+iv = a-b %question iv
+v = a*b %question v
+vi = a/b %question vi
+vii = abs(a) %question vii
+viii = abs(b) %question viii
+
+A = [ 
+    0 -4  3  0 
+    1 2  0 -2 
+    0 -3  1 -1];
+B = [
+  1 -4  0  0  2
+  0 -1  3 -2  0
+  1  1  1  0 -1
+  0  2 -3  3  4];
+
+ix = 3*A %question ix
+x = -5*B %question x
+xi = A*B %question xi
+xii = kron(A,B) %question xii
+  
+C = [
+  0     3+2i  2-4i
+    2i -3+ 1i -4-3i];
+
+xiii = transpose(C) %question xiii
+xiv = conj(C) %question xiv
+xv = transpose(conj(C)) %question xv
+ 
+NOT = [
+0 1
+1 0];
+FALSE = [1;0];
+ZERO = FALSE;
+TRUE = [0;1];
+ONE = TRUE;
+AND = [1,1,1,0;0,0,0,1];
+
+xvi = kron(ONE,ONE) %question xvi
+xvii = NOT*FALSE == ONE %question xvii
+xviii = AND*kron(ONE,ONE) %question xviii
+xviiiTwo = kron(ZERO,ONE) %question xviiiTwo
+xix = [1,0,0,0;0,1,1,1]; %question xix
+xx = NOT*xix %question xx
+
+_________________________________________________________________________________________

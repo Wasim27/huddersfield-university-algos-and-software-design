@@ -1,0 +1,154 @@
+{
+  "tests": [
+    {
+      "name": "Test size 1",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testOneSize",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test size 2",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testTwoSize",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test size 4",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testFourSize",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test size 100",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testHundredSize",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test size 1,000",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testThousandContents",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test size 1,000,000",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testMillionContents",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test contents 1",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testOneContents",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test contents 2",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testTwoContents",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test contents 4",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testFourContents",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test contents 100",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testHundredContents",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test contents 1,000",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testThousandContents",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test contents 1,000,000",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testHundredContents",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test random 100",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testHundredRandom",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Test random 1,000",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testThousandRandom",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Test random 1,000,000",
+      "setup": "",
+      "run": "gradle test --tests CleverRandomListingGeneratorTest.testMillionRandom",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "tests": [
+    {
+      "name": "Small size",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testSmallSize",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Medium size",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testMediumSize",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Large size",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testLargeSize",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Small contents",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testSmallContents",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Medium contents",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testMediumContents",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Large contents",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testLargeContents",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Small ordered",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testSmallOrdered",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Medium ordered",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testMediumOrdered",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Large ordered",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testLargeOrdered",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Get value",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testGetValue",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Set value",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testSetValue",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Get left",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testGetLeft",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Set left",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testSetLeft",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Get right",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testGetRight",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Set right",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testSetRight",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Contains",
+      "setup": "",
+      "run": "gradle test --tests IntegerTreeTest.testContains",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    }
+  ]
+}

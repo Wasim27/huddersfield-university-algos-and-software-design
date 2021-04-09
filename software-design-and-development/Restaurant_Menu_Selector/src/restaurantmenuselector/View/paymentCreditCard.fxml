@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="226.0" prefWidth="293.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurantmenuselector.Controller.PaymentCreditCardController">
+   <children>
+      <Label layoutX="22.0" layoutY="36.0" prefHeight="17.0" prefWidth="74.0" text="Card Number" />
+      <TextField fx:id="cardNumber" layoutX="98.0" layoutY="32.0" prefHeight="25.0" prefWidth="165.0" />
+      <Label layoutX="22.0" layoutY="68.0" prefHeight="17.0" prefWidth="74.0" text="Expiry Date" />
+      <DatePicker fx:id="date" editable="false" layoutX="98.0" layoutY="64.0" prefHeight="25.0" prefWidth="174.0" />
+      <Label layoutX="22.0" layoutY="105.0" text="Card Type" />
+      <ComboBox fx:id="comboCard" layoutX="98.0" layoutY="101.0" prefHeight="25.0" prefWidth="174.0" />
+      <Button layoutX="121.0" layoutY="154.0" mnemonicParsing="false" onAction="#pay" text="PAY" />
+   </children>
+</AnchorPane>

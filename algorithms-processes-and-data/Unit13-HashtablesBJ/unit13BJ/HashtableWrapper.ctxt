@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=HashtableWrapper
+comment0.text=\r\n\ A\ wrapper\ for\ the\ Hashtable\ class\r\n\ \r\n\ @author\ Hugh\ Osborne\ \r\n\ @version\ October\ 2019\r\n\r\n\ @param\ <K>\ the\ type\ of\ key\ used\ in\ this\ hashtable.\r\n\ @param\ <V>\ the\ type\ of\ value\ to\ be\ stored\ in\ this\ hashtable.\r\n
+comment1.params=size
+comment1.target=HashtableWrapper(int)
+comment1.text=\r\n\ Create\ a\ new\ hashtable\ of\ the\ specified\ size.\r\n\ @param\ size\ the\ initial\ size\ of\ the\ hashtable's\ internal\ array.\r\n
+comment2.params=key\ value
+comment2.target=java.lang.Object\ put(java.lang.Object,\ java.lang.Object)
+comment2.text=\r\n\ Add\ a\ new\ record\ to\ the\ hashtable.\r\n\ @param\ key\ the\ key\ agains\ which\ the\ record\ will\ be\ stored.\r\n\ @param\ value\ the\ value\ to\ be\ stored\ in\ the\ record.\r\n\ @return\ the\ value\ stored.\r\n
+numComments=3

@@ -1,0 +1,254 @@
+{
+  "tests": [
+    {
+      "name": "Compile",
+      "setup": "",
+      "run": "gradle test --tests --stacktrace ReferenceCountSortTest.testCompile",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Contents, small, low",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testContentsSL",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Contents, small, intermediate",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testContentsSI",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Contents, small, high",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testContentsSH",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Contents, medium, low",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testContentsML",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    },
+    {
+      "name": "Contents, medium, intermediate",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testContentsMI",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    },
+    {
+      "name": "Contents, medium, high",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testContentsMH",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    },
+    {
+      "name": "Contents, large, low",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testContentsLL",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Contents, large, intermediate",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testContentsLI",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Contents, large, high",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testContentsLH",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Ordering, small, low",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testOrderingSL",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Ordering, small, intermediate",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testOrderingSI",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Ordering, small, high",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testOrderingSH",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Ordering, medium, low",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testOrderingML",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    },
+    {
+      "name": "Ordering, medium, intermediate",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testOrderingMI",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    },
+    {
+      "name": "Ordering. medium, high",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testOrderingMH",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    },
+    {
+      "name": "Ordering, large, low",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testOrderingLL",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Ordering, large, intermediate",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testOrderingLI",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Ordering, large, high",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testOrderingLH",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Cyclic, cyclic, small",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testCyclicS",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Cyclic, cyclic, medium",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testCyclicM",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    },
+    {
+      "name": "Cyclic, cyclic, large",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testCyclicL",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Cyclic, paired, small",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testPairedS",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Cyclic, paired, medium",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testPairedM",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    },
+    {
+      "name": "Cyclic, paired, large",
+      "setup": "",
+      "run": "gradle test --tests ReferenceCountSortTest.testPairedL",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }
+  ]
+}

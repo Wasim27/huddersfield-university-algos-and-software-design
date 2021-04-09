@@ -1,0 +1,134 @@
+{
+  "tests": [
+    {
+      "name": "2nd in 10",
+      "setup": "",
+      "run": "gradle test --tests CleverSearcherTest.test2ndIn10",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "5th in 10",
+      "setup": "",
+      "run": "gradle test --tests CleverSearcherTest.test5thIn10",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "3rd in 100",
+      "setup": "",
+      "run": "gradle test --tests CleverSearcherTest.test3rdIn100",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "16th in 100",
+      "setup": "",
+      "run": "gradle test --tests CleverSearcherTest.test16thIn100",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "8th in 1,000",
+      "setup": "",
+      "run": "gradle test --tests CleverSearcherTest.test8thIn1000",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "107th in 1,000",
+      "setup": "",
+      "run": "gradle test --tests CleverSearcherTest.test107thIn1000",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "1st in 10,000",
+      "setup": "",
+      "run": "gradle test --tests CleverSearcherTest.test1stIn10000",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    },
+    {
+      "name": "1,003rd in 10,000",
+      "setup": "",
+      "run": "gradle test --tests CleverSearcherTest.test1003rdIn10000",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    },
+    {
+      "name": "11th in 100,000",
+      "setup": "",
+      "run": "gradle test --tests CleverSearcherTest.test11thIn100000",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "4th in 1,000,000",
+      "setup": "",
+      "run": "gradle test --tests CleverSearcherTest.test4thIn1000000",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "Random [10] 0 to 20",
+      "setup": "",
+      "run": "gradle test --tests CleverSearcherTest.testRandom1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 5
+    },
+    {
+      "name": "Random [100] -50 to 50",
+      "setup": "",
+      "run": "gradle test --tests CleverSearcherTest.testRandom2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 5
+    },
+    {
+      "name": "Random [20] -200 to -100",
+      "setup": "",
+      "run": "gradle test --tests CleverSearcherTest.testRandom3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 5
+    }
+  ]
+}

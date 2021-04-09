@@ -1,0 +1,244 @@
+{
+  "tests": [
+    {
+      "name": "Small size",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testSmallSize",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Large size",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testLargeSize",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Empty size",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testEmptySize",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Small add",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testSmallAdd",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Large add",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testLargeAdd",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Empty add",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testEmptyAdd",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Add zero index",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testAddZeroIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Add limit index",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testAddLimitIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Add negative index",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testAddNegativeIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Add out of bounds index",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testAddOutOfBoundsIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Small get",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testSmallGet",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Large get",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testLargeGet",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Empty get",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testEmptyGet",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Get zero index",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testGetZeroIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Get limit index",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testGetLimitIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Get negative index",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testGetNegativeIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Get out of bounds index",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testGetOutOfBoundsIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Small remove",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testSmallRemove",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Large remove",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testLargeRemove",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Empty remove",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testEmptyRemove",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Remove zero index",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testRemoveZeroIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Remove limit index",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testRemoveLimitIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Remove negative index",
+      "setup": "",
+      "run": "gradle test --tests SingleLinkListTest.testRemoveNegativeIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Remove out of bounds index",
+      "setup": "",
+      "run": "gradle test –-tests SingleLinkListTest.testRemoveOutOfBoundsIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    }
+  ]
+}

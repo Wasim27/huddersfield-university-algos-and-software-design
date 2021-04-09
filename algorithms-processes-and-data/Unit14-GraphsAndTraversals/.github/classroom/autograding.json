@@ -1,0 +1,134 @@
+{
+  "tests": [
+    {
+      "name": "Empty",
+      "setup": "",
+      "run": "gradle test --tests DepthFirstTraversalTest.testEmpty",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Cyclic 3",
+      "setup": "",
+      "run": "gradle test --tests DepthFirstTraversalTest.testCyclic3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Cyclic 10",
+      "setup": "",
+      "run": "gradle test --tests DepthFirstTraversalTest.testCyclic10",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Cyclic 38",
+      "setup": "",
+      "run": "gradle test --tests DepthFirstTraversalTest.testCyclic38",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Cyclic random",
+      "setup": "",
+      "run": "gradle test --tests DepthFirstTraversalTest.testCyclicRandom",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Paired 3",
+      "setup": "",
+      "run": "gradle test --tests DepthFirstTraversalTest.testPaired3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Paired 10",
+      "setup": "",
+      "run": "gradle test --tests DepthFirstTraversalTest.testPaired10",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Paired 38",
+      "setup": "",
+      "run": "gradle test --tests DepthFirstTraversalTest.testPaired38",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Paired random",
+      "setup": "",
+      "run": "gradle test --tests DepthFirstTraversalTest.testPairedRandom",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Random 3",
+      "setup": "",
+      "run": "gradle test --tests DepthFirstTraversalTest.testRandom3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Random 10",
+      "setup": "",
+      "run": "gradle test --tests DepthFirstTraversalTest.testRandom10",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Random 38",
+      "setup": "",
+      "run": "gradle test --tests DepthFirstTraversalTest.testRandom38",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Random random",
+      "setup": "",
+      "run": "gradle test --tests DepthFirstTraversalTest.testRandomRandom",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d7ccf2f-6fee-4fed-be61-e554fdd48ab4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iBppeWrtbB2bmGzdwtzjxHJU9Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Unit5-Correctness" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="show.unlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RunManager" selected="JUnit.CleverSearcherTest">
+    <configuration name="CleverSearcherTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="timer.searcher.CleverSearcherTimer" />
+      <module name="unit3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timer.searcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleSearcherTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="timer.searcher.SimpleSearcherTimer" />
+      <module name="unit3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timer.searcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CleverSearcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="searcher" />
+      <option name="MAIN_CLASS_NAME" value="searcher.CleverSearcherTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CleverSearcherTest.testLargeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="searcher" />
+      <option name="MAIN_CLASS_NAME" value="searcher.CleverSearcherTest" />
+      <option name="METHOD_NAME" value="testLargeNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CleverSearcherTest.testMinus1In10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="searcher" />
+      <option name="MAIN_CLASS_NAME" value="searcher.CleverSearcherTest" />
+      <option name="METHOD_NAME" value="testMinus1In10" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CleverSearcherTest" />
+        <item itemvalue="JUnit.CleverSearcherTest.testLargeNumber" />
+        <item itemvalue="Application.CleverSearcherTimer" />
+        <item itemvalue="Application.SimpleSearcherTimer" />
+        <item itemvalue="JUnit.CleverSearcherTest.testMinus1In10" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d7ccf2f-6fee-4fed-be61-e554fdd48ab4" name="Default Changelist" comment="" />
+      <created>1601391024343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601391024343</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Implemented CleverSearcher as well as CleverSearcherTest">
+      <created>1601926425449</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601926425449</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implemented CleverSearcher as well as CleverSearcherTest">
+      <created>1601926479262</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601926479262</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implemented CleverSearcher as well as CleverSearcherTest">
+      <created>1601927257789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601927257789</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implemented CleverSearcher as well as CleverSearcherTest">
+      <created>1602019235402</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602019235402</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implemented CleverSearcher as well as CleverSearcherTest">
+      <created>1603584555709</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603584555709</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implemented CleverSearcher as well as CleverSearcherTest">
+      <created>1603584592216</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603584592216</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented CleverSearcher as well as CleverSearcherTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented CleverSearcher as well as CleverSearcherTest" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="714" y="-871" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601897255975">
+      <screen x="-349" y="-1440" width="2560" height="1400" />
+    </state>
+    <state x="714" y="-871" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601897255975" />
+    <state x="2728" y="-677" key="CommitChangelistDialog2" timestamp="1603584591742">
+      <screen x="1920" y="-677" width="2560" height="1400" />
+    </state>
+    <state x="459" y="-1175" key="CommitChangelistDialog2/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601930784508" />
+    <state x="2728" y="-677" key="CommitChangelistDialog2/0.0.1536.824/1920.-677.2560.1400@1920.-677.2560.1400" timestamp="1603584591742" />
+    <state x="485" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602019234430" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609421275862">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-349.-1440.2560.1400@0.0.1536.824" timestamp="1601391691515" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/16.-1440.2560.1400@0.0.1536.824" timestamp="1609421275862" />
+    <state x="931" y="-1156" key="FileChooserDialogImpl/0.0.1536.824/16.-1440.2560.1400@16.-1440.2560.1400" timestamp="1606408758994" />
+    <state width="1493" height="474" key="GridCell.Tab.0.bottom" timestamp="1609421276846">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1258" height="492" key="GridCell.Tab.0.bottom/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601930785136" />
+    <state width="1493" height="474" key="GridCell.Tab.0.bottom/0.0.1536.824/16.-1440.2560.1400@0.0.1536.824" timestamp="1609421276846" />
+    <state width="723" height="139" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602363182680" />
+    <state width="1493" height="474" key="GridCell.Tab.0.center" timestamp="1609421276846">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1258" height="492" key="GridCell.Tab.0.center/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601930785136" />
+    <state width="1493" height="474" key="GridCell.Tab.0.center/0.0.1536.824/16.-1440.2560.1400@0.0.1536.824" timestamp="1609421276846" />
+    <state width="723" height="139" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602363182680" />
+    <state width="1493" height="474" key="GridCell.Tab.0.left" timestamp="1609421276846">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1258" height="492" key="GridCell.Tab.0.left/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601930785136" />
+    <state width="1493" height="474" key="GridCell.Tab.0.left/0.0.1536.824/16.-1440.2560.1400@0.0.1536.824" timestamp="1609421276846" />
+    <state width="723" height="139" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602363182680" />
+    <state width="1493" height="474" key="GridCell.Tab.0.right" timestamp="1609421276846">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1258" height="492" key="GridCell.Tab.0.right/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601930785136" />
+    <state width="1493" height="474" key="GridCell.Tab.0.right/0.0.1536.824/16.-1440.2560.1400@0.0.1536.824" timestamp="1609421276846" />
+    <state width="723" height="139" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602363182680" />
+    <state width="1258" height="492" key="GridCell.Tab.1.bottom" timestamp="1601930785136">
+      <screen x="-349" y="-1440" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="492" key="GridCell.Tab.1.bottom/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601930785136" />
+    <state width="1258" height="492" key="GridCell.Tab.1.center" timestamp="1601930785136">
+      <screen x="-349" y="-1440" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="492" key="GridCell.Tab.1.center/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601930785136" />
+    <state width="1258" height="492" key="GridCell.Tab.1.left" timestamp="1601930785136">
+      <screen x="-349" y="-1440" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="492" key="GridCell.Tab.1.left/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601930785136" />
+    <state width="1258" height="492" key="GridCell.Tab.1.right" timestamp="1601930785136">
+      <screen x="-349" y="-1440" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="492" key="GridCell.Tab.1.right/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601930785136" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1601393274737">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824/-349.-1440.2560.1400@0.0.1536.824" timestamp="1601393274737" />
+    <state x="2792" y="-244" key="Vcs.Push.Dialog.v2" timestamp="1603584593596">
+      <screen x="1920" y="-677" width="2560" height="1400" />
+    </state>
+    <state x="523" y="-1007" key="Vcs.Push.Dialog.v2/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601927260265" />
+    <state x="2792" y="-244" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-677.2560.1400@1920.-677.2560.1400" timestamp="1603584593596" />
+    <state x="523" y="255" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602019239725" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/searcher/CleverSearcherTest.java</url>
+          <line>18</line>
+          <properties class="searcher.CleverSearcherTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/searcher/CleverSearcherTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/timer/searcher/CleverSearcherTimer.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/timer/searcher/SimpleSearcherTimer.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

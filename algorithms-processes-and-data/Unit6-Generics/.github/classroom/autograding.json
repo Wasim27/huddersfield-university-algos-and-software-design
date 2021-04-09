@@ -1,0 +1,254 @@
+{
+  "tests": [
+    {
+      "name": "(small) int",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testSmallInt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(small) string",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testSmallString",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(small) character",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testSmallCharacter",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(medium) int",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testMediumInt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(medium) string",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testMediumString",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(medium) character",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testMediumCharacter",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(large) int",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testLargeInt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(large) string",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testLargeString",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(large) character",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testLargeCharacter",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "homogenous int",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testHomogenousInt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "homogenous character",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testHomogenousCharacter",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(small) same",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testSmallSame",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(medium) same",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testMediumSame",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(large) same",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testLargeSame",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(small) limits",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testSmallLimits",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(medium) limits",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testMediumLimits",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(large) limits",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testLargeLimits",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(small) negative index",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testSmallNegativeIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(medium) negative index",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testMediumNegativeIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(large) negative index",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testLargeNegativeIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(small) large index",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testSmallLargeIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(medium) large index",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testMediumLargeIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "(large) large index",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testLargeLargeIndex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "empty",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testEmpty",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "null",
+      "setup": "",
+      "run": "gradle test --tests SwapTest.testNull",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

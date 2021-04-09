@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurantmenuselector.Controller.ReceiptController">
+   <children>
+      <ScrollPane layoutX="67.0" layoutY="39.0">
+         <content>
+            <TextFlow fx:id="textFlow" prefHeight="320.0" prefWidth="482.0" />
+         </content>
+      </ScrollPane>
+      <Label layoutX="286.0" layoutY="14.0" />
+      <Button layoutX="240.0" layoutY="395.0" mnemonicParsing="false" onAction="#closeReceipt" styleClass="btn-info" stylesheets="@style.css" text="CLOSE RECEIPT" />
+   </children>
+</AnchorPane>

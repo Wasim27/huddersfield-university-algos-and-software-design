@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88ff27af-5c9b-43f5-b906-a6925adb4268" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrayGenerator/CleverRandomListingGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayGenerator/CleverRandomListingGenerator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iBYASXll9MpRssGqxD3QHg8WCg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="show.unlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RunManager" selected="JUnit.SimpleRandomListingGeneratorTest">
+    <configuration name="CleverRandomListingGeneratorTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayGenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayGenerator" />
+      <option name="MAIN_CLASS_NAME" value="arrayGenerator.ArrayGeneratorTest" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="arrayGenerator.CleverRandomListingGeneratorTest" />
+        <pattern testClass="arrayGenerator.SimpleRandomListingGeneratorTest" />
+        <pattern testClass="arrayGenerator.SortedListingGeneratorTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CleverRandomListingGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayGenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayGenerator" />
+      <option name="MAIN_CLASS_NAME" value="arrayGenerator.CleverRandomListingGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleRandomListingGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayGenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayGenerator" />
+      <option name="MAIN_CLASS_NAME" value="arrayGenerator.SimpleRandomListingGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SimpleRandomListingGeneratorTest" />
+        <item itemvalue="JUnit.CleverRandomListingGeneratorTest and 2 more" />
+        <item itemvalue="JUnit.CleverRandomListingGeneratorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88ff27af-5c9b-43f5-b906-a6925adb4268" name="Default Changelist" comment="" />
+      <created>1601382308441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601382308441</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2517" height="398" key="GridCell.Tab.0.bottom" timestamp="1601382838345">
+      <screen x="-349" y="-1440" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="398" key="GridCell.Tab.0.bottom/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601382838345" />
+    <state width="2517" height="398" key="GridCell.Tab.0.center" timestamp="1601382838345">
+      <screen x="-349" y="-1440" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="398" key="GridCell.Tab.0.center/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601382838345" />
+    <state width="2517" height="398" key="GridCell.Tab.0.left" timestamp="1601382838341">
+      <screen x="-349" y="-1440" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="398" key="GridCell.Tab.0.left/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601382838341" />
+    <state width="2517" height="398" key="GridCell.Tab.0.right" timestamp="1601382838345">
+      <screen x="-349" y="-1440" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="398" key="GridCell.Tab.0.right/0.0.1536.824/-349.-1440.2560.1400@-349.-1440.2560.1400" timestamp="1601382838345" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/arrayGenerator/ArrayGeneratorTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+Frontend:
+
+- HTML
+- CSS
+- Javascript (freecodecamp or modernjavascript) with algorithms course
+- react.js then maybe vue?
+
+
+Backend:
+
+- Javascript
+- PostgreSQL / MySQL / Mongodb
+- 
+

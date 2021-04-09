@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graph.ReferenceCountSortTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2020-12-31T13:37:08" hostname="LAPTOP-0TTE5EV8" time="1.777">
+  <properties/>
+  <testcase name="testPairedL()" classname="graph.ReferenceCountSortTest" time="0.052"/>
+  <testcase name="testPairedM()" classname="graph.ReferenceCountSortTest" time="0.004"/>
+  <testcase name="testPairedS()" classname="graph.ReferenceCountSortTest" time="0.002"/>
+  <testcase name="testContentsLH()" classname="graph.ReferenceCountSortTest" time="0.526"/>
+  <testcase name="testContentsLI()" classname="graph.ReferenceCountSortTest" time="0.23"/>
+  <testcase name="testContentsLL()" classname="graph.ReferenceCountSortTest" time="0.067"/>
+  <testcase name="testContentsMH()" classname="graph.ReferenceCountSortTest" time="0.008"/>
+  <testcase name="testContentsMI()" classname="graph.ReferenceCountSortTest" time="0.004"/>
+  <testcase name="testContentsML()" classname="graph.ReferenceCountSortTest" time="0.001"/>
+  <testcase name="testContentsSH()" classname="graph.ReferenceCountSortTest" time="0.001"/>
+  <testcase name="testContentsSI()" classname="graph.ReferenceCountSortTest" time="0.001"/>
+  <testcase name="testContentsSL()" classname="graph.ReferenceCountSortTest" time="0.001"/>
+  <testcase name="testOrderingLH()" classname="graph.ReferenceCountSortTest" time="0.477"/>
+  <testcase name="testOrderingLI()" classname="graph.ReferenceCountSortTest" time="0.243"/>
+  <testcase name="testOrderingLL()" classname="graph.ReferenceCountSortTest" time="0.104"/>
+  <testcase name="testOrderingMH()" classname="graph.ReferenceCountSortTest" time="0.009"/>
+  <testcase name="testOrderingMI()" classname="graph.ReferenceCountSortTest" time="0.004"/>
+  <testcase name="testOrderingML()" classname="graph.ReferenceCountSortTest" time="0.002"/>
+  <testcase name="testOrderingSH()" classname="graph.ReferenceCountSortTest" time="0.001"/>
+  <testcase name="testOrderingSI()" classname="graph.ReferenceCountSortTest" time="0.001"/>
+  <testcase name="testOrderingSL()" classname="graph.ReferenceCountSortTest" time="0.001"/>
+  <testcase name="testCompile()" classname="graph.ReferenceCountSortTest" time="0.001"/>
+  <testcase name="testCyclicL()" classname="graph.ReferenceCountSortTest" time="0.015"/>
+  <testcase name="testCyclicM()" classname="graph.ReferenceCountSortTest" time="0.002"/>
+  <testcase name="testCyclicS()" classname="graph.ReferenceCountSortTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
